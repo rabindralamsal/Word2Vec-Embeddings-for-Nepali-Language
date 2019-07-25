@@ -1,6 +1,6 @@
 # Word Embeddings (Word2Vec) for Nepali Language
 
-![Word Embeddings for Nepali language](Word Embeddings for Nepali language.png?raw=true "Title")
+![Word Embeddings for Nepali Language](word_embd_cover.PNG?raw=true)
 
 This pre-trained Word2Vec model has 300-dimensional vectors for more than 0.5 million Nepali words and phrases. A separate Nepali language text corpus was created using the news contents freely available in the public domain. The text corpus contained more than 100 million running words.
 
