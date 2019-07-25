@@ -13,8 +13,29 @@ This pre-trained Word2Vec model has 300-dimensional vectors for more than 0.5 mi
 <li>Context (window) size: 10</li>
 
 <li>Token minimum count: 2</li>
+<li>Encoded in UTF-8</li>
 </ul>
 
 Download the model from here: https://drive.google.com/file/d/1ik38vahOmzhiU2DBi78VOqDt7YFPsk5w/.
-Size: 1,881,180,827 bytes
-File Type: .txt
+
+(Size: 1,881,180,827 bytes and File Type: .txt)
+
+<h2>Using the Word2Vec model</h2>
+
+```python
+from gensim.models import KeyedVectors
+
+# Load vectors
+model = KeyedVectors.load_word2vec_format(''.../path/to/nepali_embeddings_word2vec.txt', binary=False)
+
+# find similarity between words
+model.similarity('फेसबूक','इन्स्टाग्राम')
+
+#most similar words
+model.most_similar('ठमेल')
+
+#try some linear algebra maths with Nepali words
+model.most_similar(positive=['', ''], negative=[''], topn=1)
+```
+
+This desing of the Nepali text corpus and the training of the model was designed in Lab-03, School of Computer and System Sciences, Jawaharlal Nehru University, New Delhi.
