@@ -40,4 +40,4 @@ model.most_similar('ठमेल')
 model.most_similar(positive=['', ''], negative=[''], topn=1)
 ```
 
-The desing of the Nepali text corpus and the training of the Word2Vec model was done in Lab-03, School of Computer and System Sciences, Jawaharlal Nehru University, New Delhi.
+The design of the Nepali text corpus and the training of the Word2Vec model was done in Lab-03, School of Computer and System Sciences, Jawaharlal Nehru University, New Delhi.
