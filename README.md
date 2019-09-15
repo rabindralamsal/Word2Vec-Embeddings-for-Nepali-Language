@@ -18,7 +18,7 @@ This pre-trained Word2Vec model has 300-dimensional vectors for more than 0.5 mi
 <li>Encoded in UTF-8</li>
 </ul>
 
-Download the model from here: https://drive.google.com/file/d/1ik38vahOmzhiU2DBi78VOqDt7YFPsk5w/.
+Download the model from IEEE Dataport: https://ieee-dataport.org/open-access/300-dimensional-word-embeddings-nepali-language
 
 (Size: 1,881,180,827 bytes and File Type: .txt)
 
